@@ -1,16 +1,26 @@
 import React from 'react'
+import gallery1 from '../assets/gallery-1.png'
+import gallery2 from '../assets/gallery-2.png'
+import gallery3 from '../assets/gallery-3.png'
+import gallery4 from '../assets/gallery-4.jpeg'
+import gallery5 from '../assets/gallery-5.jpeg'
+import gallery6 from '../assets/gallery-6.jpeg'
+import gallery7 from '../assets/gallery-7.jpeg'
+import gallery8 from '../assets/gallery-8.jpeg'
+import gallery9 from '../assets/gallery-9.jpeg'
+import gallery10 from '../assets/gallery-10.jpeg'
 
 const demo = [
-  '/assets/gallery-1.png',
-  '/assets/gallery-2.png',
-  '/assets/gallery-3.png',
-  '/assets/gallery-4.jpeg',
-  '/assets/gallery-5.jpeg',
-  '/assets/gallery-6.jpeg',
-  '/assets/gallery-7.jpeg',
-  '/assets/gallery-8.jpeg',
-  '/assets/gallery-9.jpeg',
-  '/assets/gallery-10.jpeg'
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+  gallery9,
+  gallery10
 ]
 
 export default function Gallery(){

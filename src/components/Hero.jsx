@@ -1,10 +1,11 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import heroBackground from '../assets/gallery-1.png'
 
 export default function Hero(){
   return (
     <section className="relative min-h-[70vh] md:h-screen flex items-center py-12 md:py-0">
-      <div className="absolute inset-0 bg-cover bg-center opacity-80" style={{backgroundImage:'url(/assets/gallery-1.png)'}}></div>
+      <div className="absolute inset-0 bg-cover bg-center opacity-80" style={{backgroundImage:`url(${heroBackground})`}}></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/30 to-black/80"></div>
       <div className="max-w-6xl mx-auto z-10 px-6">
         <motion.div initial={{y:20,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.8}} className="py-12 md:py-24">

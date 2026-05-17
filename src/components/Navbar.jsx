@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { HiMenu, HiX } from 'react-icons/hi'
+import logo from '../assets/logo.png'
 
 export default function Navbar(){
   const location = useLocation()
@@ -36,7 +37,7 @@ export default function Navbar(){
     <header className="sticky top-0 z-40 glass px-4 md:px-6 py-3 md:py-4 border-b border-white/6">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/assets/logo.png" alt="Sharmi Aari Designer" className="w-10 h-10 rounded-full object-cover" />
+          <img src={logo} alt="Sharmi Aari Designer" className="w-10 h-10 rounded-full object-cover" />
           <div className="hidden sm:block">
             <div className="font-serif text-lg">Sharmi Aari Designer</div>
             <div className="text-xs text-white/70">Aari Embroidery & Tailoring Academy</div>

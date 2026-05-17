@@ -1,12 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import logo from '../assets/logo.png'
 
 export default function About(){
   return (
     <section className="py-16">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center px-6">
         <motion.div initial={{x:-30,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:0.6}} className="glass p-6 rounded-xl">
-          <img src="/assets/logo.png" alt="Sharmi Aari Designer" className="w-32 h-32 rounded-full object-cover shadow-lg" />
+          <img src={logo} alt="Sharmi Aari Designer" className="w-32 h-32 rounded-full object-cover shadow-lg" />
           <h3 className="mt-4 font-serif text-2xl">About Sharmi Aari Designer</h3>
           <p className="mt-2 text-white/80">A premium embroidery and tailoring training institute specialized in Aari work and bridal blouse designing, empowering women to start boutique businesses.</p>
         </motion.div>
