@@ -1,0 +1,16 @@
+{
+  "name": "Sharmi Aari Designer",
+  "short_name": "Sharmi Aari",
+  "description": "Premium Aari embroidery and tailoring classes for boutique entrepreneurs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#d4af37",
+  "icons": [
+    {
+      "src": "/assets/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
