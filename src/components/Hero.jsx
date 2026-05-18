@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import heroBackground from '../assets/gallery-1.png'
+const heroBackground = '/assets/gallery-1.webp'
 
 export default function Hero(){
   return (

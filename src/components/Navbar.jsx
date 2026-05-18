@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { HiMenu, HiX } from 'react-icons/hi'
-import logo from '../assets/logo.png'
+const logo = '/assets/logo.webp'
 
 export default function Navbar(){
   const location = useLocation()
