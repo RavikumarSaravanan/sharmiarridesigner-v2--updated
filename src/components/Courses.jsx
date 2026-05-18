@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-const whatsappNumber = '919999999999'
+const whatsappNumber = '916382194871'
 const courses = [
   {title:'Aari Embroidery Classes', duration:'2 Months', highlight:true},
   {title:'Tailoring Classes', duration:'2 Months'},

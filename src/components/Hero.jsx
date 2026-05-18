@@ -14,7 +14,7 @@ export default function Hero(){
           <div className="mt-8 flex flex-col sm:flex-row sm:items-center gap-4">
             <a href="/courses" className="button-gold px-6 py-3 rounded-full font-medium">Join Classes</a>
             <a href="/services" className="px-6 py-3 rounded-full border border-white/15 backdrop-blur-sm">View Services</a>
-            <a href="https://wa.me/" className="px-5 py-3 rounded-full bg-white/10 border border-white/10">WhatsApp Inquiry</a>
+            <a href="https://wa.me/916382194871" className="px-5 py-3 rounded-full bg-white/10 border border-white/10">WhatsApp Inquiry</a>
           </div>
 
           <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4">

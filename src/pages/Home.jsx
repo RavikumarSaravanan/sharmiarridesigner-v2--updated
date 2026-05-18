@@ -16,12 +16,12 @@ const highlights = [
 ]
 
 const contactDetails = [
-  { label: 'Phone', value: '+91 99999 99999' },
-  { label: 'Email', value: 'info@sharmiaari.com' },
-  { label: 'Address', value: '123 Boutique Lane, Your City' }
+  { label: 'Phone', value: '+91 63821 94871' },
+  { label: 'Email', value: 'sharmiaaridesigner@gmail.com' },
+  { label: 'Address', value: 'ASV Complex GH, opposite Kamarajar Saalai, Tharangambadi, Tamil Nadu 609313' }
 ]
 
-const mapSrc = 'https://maps.google.com/maps?q=12.9716,77.5946&z=15&output=embed'
+const mapSrc = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4706.460757114358!2d79.8465749!3d11.0309967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a551bc0e1a65e4b%3A0x9a37e9238c87d436!2sSHARMI%20AARI%20DESIGNER!5e1!3m2!1sen!2sin!4v1779121391062!5m2!1sen!2sin'
 
 export default function Home(){
   const scrollToContact = () => {
@@ -95,6 +95,7 @@ export default function Home(){
                   src={mapSrc}
                   className="w-full h-80 md:h-[420px]"
                   loading="lazy"
+                  allowFullScreen
                   referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>
@@ -105,7 +106,7 @@ export default function Home(){
                 <p className="text-sm uppercase tracking-[0.3em] text-gold">Google Business Profile</p>
                 <h3 className="font-semibold text-xl mt-3">Verified Local Studio</h3>
                 <p className="text-white/70 mt-3">See our Google Business listing for reviews, opening hours, and direct direction links. Trusted by our boutique community.</p>
-                <a href="https://www.google.com/maps" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 mt-5 text-gold hover:text-white">
+                <a href="https://maps.app.goo.gl/zKftzhMLk1JbTuHi9" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 mt-5 text-gold hover:text-white">
                   View profile
                 </a>
               </div>
